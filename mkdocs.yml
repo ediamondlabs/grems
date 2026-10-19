@@ -1,0 +1,60 @@
+site_name: GReMS
+site_description: Graph-Reinforced Neural Micro-Splitting over Dynamic Heterogeneous IoT Networks
+site_url: https://ahibrah.github.io/RL_Split_Learning/
+repo_url: https://github.com/ahibrah/RL_Split_Learning
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+  - Getting started:
+      - Installation: installation.md
+      - Quick start: quickstart.md
+  - Reproducibility:
+      - Reproducibility guide: reproducibility.md
+      - Experiments and outputs: experiments.md
+  - Method:
+      - Problem and environment: method/problem.md
+      - The agent: method/agent.md
+      - Reward and training: method/training.md
+      - Latency model: method/latency_model.md
+      - Baselines: method/baselines.md
+  - Code:
+      - Code structure: code_structure.md
+      - Scripts reference: scripts.md
+      - Configuration reference: configuration.md
+      - Extending GReMS: extending.md
+  - Help:
+      - Troubleshooting: troubleshooting.md

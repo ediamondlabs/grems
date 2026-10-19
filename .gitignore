@@ -1,0 +1,25 @@
+# Extracted topologies (the archives in data/networks/ are tracked)
+/variable_networks/
+/variable_networks_*/
+
+# Run outputs
+/results
+/results/
+/plots
+/plots/
+/logs/
+*.log
+
+# Checkpoints of your own runs (the released ones are tracked)
+checkpoints/checkpoints/*
+!checkpoints/checkpoints/variable_networks_GReMS_FINAL/
+!checkpoints/checkpoints/variable_networks_GReMS_Final_Finetune/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Docs build output
+site/
+wandb/

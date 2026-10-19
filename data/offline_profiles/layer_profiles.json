@@ -1,0 +1,191 @@
+[
+  {
+    "forward_time_ms": 14.702269807457924,
+    "peak_memory_bytes": 0,
+    "param_size_bytes": 7680,
+    "flops": 86704128,
+    "activation_size": 3211264,
+    "layer_index": 0,
+    "layer_type": "C"
+  },
+  {
+    "forward_time_ms": 34.39629543572664,
+    "peak_memory_bytes": 0,
+    "param_size_bytes": 148224,
+    "flops": 1849688064,
+    "activation_size": 3211264,
+    "layer_index": 1,
+    "layer_type": "C"
+  },
+  {
+    "forward_time_ms": 6.294421618804336,
+    "peak_memory_bytes": 0,
+    "param_size_bytes": 0,
+    "flops": 0,
+    "activation_size": 802816,
+    "layer_index": 2,
+    "layer_type": "M"
+  },
+  {
+    "forward_time_ms": 28.855364304035902,
+    "peak_memory_bytes": 0,
+    "param_size_bytes": 296448,
+    "flops": 924844032,
+    "activation_size": 1605632,
+    "layer_index": 3,
+    "layer_type": "C"
+  },
+  {
+    "forward_time_ms": 33.14957511611283,
+    "peak_memory_bytes": 0,
+    "param_size_bytes": 591360,
+    "flops": 1849688064,
+    "activation_size": 1605632,
+    "layer_index": 4,
+    "layer_type": "C"
+  },
+  {
+    "forward_time_ms": 3.217895980924368,
+    "peak_memory_bytes": 0,
+    "param_size_bytes": 0,
+    "flops": 0,
+    "activation_size": 401408,
+    "layer_index": 5,
+    "layer_type": "M"
+  },
+  {
+    "forward_time_ms": 23.705693893134594,
+    "peak_memory_bytes": 0,
+    "param_size_bytes": 1182720,
+    "flops": 924844032,
+    "activation_size": 802816,
+    "layer_index": 6,
+    "layer_type": "C"
+  },
+  {
+    "forward_time_ms": 31.69741271995008,
+    "peak_memory_bytes": 0,
+    "param_size_bytes": 2362368,
+    "flops": 1849688064,
+    "activation_size": 802816,
+    "layer_index": 7,
+    "layer_type": "C"
+  },
+  {
+    "forward_time_ms": 32.19350497238338,
+    "peak_memory_bytes": 0,
+    "param_size_bytes": 2362368,
+    "flops": 1849688064,
+    "activation_size": 802816,
+    "layer_index": 8,
+    "layer_type": "C"
+  },
+  {
+    "forward_time_ms": 4.168038722127676,
+    "peak_memory_bytes": 0,
+    "param_size_bytes": 0,
+    "flops": 0,
+    "activation_size": 200704,
+    "layer_index": 9,
+    "layer_type": "M"
+  },
+  {
+    "forward_time_ms": 24.072371423244476,
+    "peak_memory_bytes": 0,
+    "param_size_bytes": 4724736,
+    "flops": 924844032,
+    "activation_size": 401408,
+    "layer_index": 10,
+    "layer_type": "C"
+  },
+  {
+    "forward_time_ms": 29.67095677740872,
+    "peak_memory_bytes": 0,
+    "param_size_bytes": 9443328,
+    "flops": 1849688064,
+    "activation_size": 401408,
+    "layer_index": 11,
+    "layer_type": "C"
+  },
+  {
+    "forward_time_ms": 31.959872459992766,
+    "peak_memory_bytes": 0,
+    "param_size_bytes": 9443328,
+    "flops": 1849688064,
+    "activation_size": 401408,
+    "layer_index": 12,
+    "layer_type": "C"
+  },
+  {
+    "forward_time_ms": 0.2717610914260149,
+    "peak_memory_bytes": 0,
+    "param_size_bytes": 0,
+    "flops": 0,
+    "activation_size": 100352,
+    "layer_index": 13,
+    "layer_type": "M"
+  },
+  {
+    "forward_time_ms": 26.839730329811573,
+    "peak_memory_bytes": 0,
+    "param_size_bytes": 9443328,
+    "flops": 462422016,
+    "activation_size": 100352,
+    "layer_index": 14,
+    "layer_type": "C"
+  },
+  {
+    "forward_time_ms": 25.004246039316058,
+    "peak_memory_bytes": 0,
+    "param_size_bytes": 9443328,
+    "flops": 462422016,
+    "activation_size": 100352,
+    "layer_index": 15,
+    "layer_type": "C"
+  },
+  {
+    "forward_time_ms": 19.907229114323854,
+    "peak_memory_bytes": 0,
+    "param_size_bytes": 9443328,
+    "flops": 462422016,
+    "activation_size": 100352,
+    "layer_index": 16,
+    "layer_type": "C"
+  },
+  {
+    "forward_time_ms": 2.106145489960909,
+    "peak_memory_bytes": 0,
+    "param_size_bytes": 0,
+    "flops": 0,
+    "activation_size": 25088,
+    "layer_index": 17,
+    "layer_type": "M"
+  },
+  {
+    "forward_time_ms": 13.906859094277024,
+    "peak_memory_bytes": 0,
+    "param_size_bytes": 411058176,
+    "flops": 102760448,
+    "activation_size": 4096,
+    "layer_index": 18,
+    "layer_type": "D"
+  },
+  {
+    "forward_time_ms": 5.2193691954016685,
+    "peak_memory_bytes": 0,
+    "param_size_bytes": 67125248,
+    "flops": 16777216,
+    "activation_size": 4096,
+    "layer_index": 19,
+    "layer_type": "D"
+  },
+  {
+    "forward_time_ms": 3.26420646160841,
+    "peak_memory_bytes": 0,
+    "param_size_bytes": 16388000,
+    "flops": 4096000,
+    "activation_size": 1000,
+    "layer_index": 20,
+    "layer_type": "D"
+  }
+]

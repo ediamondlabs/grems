@@ -1,0 +1,106 @@
+{
+  "network0": {
+    "DiSNet": {
+      "latency_s": 0.9992,
+      "latency_ms": 999.21,
+      "energy_avg": 2.8488,
+      "ref_metric": 0.7046,
+      "accuracy": 0.9427,
+      "num_runs": 100,
+      "latency_std_s": 0.0114
+    },
+    "MODNN": {
+      "latency_s": 2.4409,
+      "latency_ms": 2440.95,
+      "energy_avg": 10.4845,
+      "ref_metric": 0.8477,
+      "accuracy": 0.9628,
+      "num_runs": 100,
+      "latency_std_s": 0.0008
+    }
+  },
+  "network1": {
+    "DiSNet": {
+      "latency_s": 1.0251,
+      "latency_ms": 1025.1,
+      "energy_avg": 2.8529,
+      "ref_metric": 0.7046,
+      "accuracy": 0.9427,
+      "num_runs": 100,
+      "latency_std_s": 0.0
+    },
+    "MODNN": {
+      "latency_s": 2.047,
+      "latency_ms": 2046.97,
+      "energy_avg": 11.7102,
+      "ref_metric": 0.8477,
+      "accuracy": 0.9628,
+      "num_runs": 100,
+      "latency_std_s": 0.0005
+    }
+  },
+  "network2": {
+    "DiSNet": {
+      "latency_s": 1.1515,
+      "latency_ms": 1151.52,
+      "energy_avg": 1.6945,
+      "ref_metric": 0.6667,
+      "accuracy": 0.9281,
+      "num_runs": 100,
+      "latency_std_s": 0.0
+    },
+    "MODNN": {
+      "latency_s": 2.0473,
+      "latency_ms": 2047.28,
+      "energy_avg": 11.7111,
+      "ref_metric": 0.8477,
+      "accuracy": 0.9628,
+      "num_runs": 100,
+      "latency_std_s": 0.0001
+    }
+  },
+  "network3": {
+    "DiSNet": {
+      "latency_s": 1.3549,
+      "latency_ms": 1354.91,
+      "energy_avg": 2.377,
+      "ref_metric": 0.8477,
+      "accuracy": 0.9628,
+      "num_runs": 100,
+      "latency_std_s": 0.0
+    },
+    "MODNN": {
+      "latency_s": 2.4404,
+      "latency_ms": 2440.43,
+      "energy_avg": 10.4833,
+      "ref_metric": 0.8477,
+      "accuracy": 0.9628,
+      "num_runs": 100,
+      "latency_std_s": 0.0
+    }
+  },
+  "summary": {
+    "DiSNet": {
+      "mean_latency_s": 1.1327,
+      "mean_latency_ms": 1132.67,
+      "mean_energy": 2.4433,
+      "per_network_latency_s": [
+        0.9992,
+        1.0251,
+        1.1515,
+        1.3549
+      ]
+    },
+    "MODNN": {
+      "mean_latency_s": 2.2439,
+      "mean_latency_ms": 2243.9,
+      "mean_energy": 11.0973,
+      "per_network_latency_s": [
+        2.4409,
+        2.047,
+        2.0473,
+        2.4404
+      ]
+    }
+  }
+}
