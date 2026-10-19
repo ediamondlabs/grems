@@ -1,7 +1,7 @@
 site_name: GReMS
 site_description: Graph-Reinforced Neural Micro-Splitting over Dynamic Heterogeneous IoT Networks
-site_url: https://ahibrah.github.io/RL_Split_Learning/
-repo_url: https://github.com/ahibrah/RL_Split_Learning
+site_url: https://ediamondlabs.github.io/grems/
+repo_url: https://github.com/ediamondlabs/grems
 
 theme:
   name: material
